@@ -2,7 +2,9 @@ import { ContextTypes } from '../contexts'
 
 const movieConflict = ({ movieConflict, author }) => {
 
-  // ....
+  return {
+    movie: `${movieConflict} de ${author}`
+  }
 }
 
 movieConflict.inputTypes = {

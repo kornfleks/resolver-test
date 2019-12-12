@@ -2,7 +2,9 @@ import { ContextTypes } from '../contexts'
 
 const authorConflict = ({ authorConflict }) => {
 
-  // ....
+  return {
+    author: authorConflict
+  }
 }
 
 authorConflict.inputTypes = {
